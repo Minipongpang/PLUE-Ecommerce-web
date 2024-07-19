@@ -1,0 +1,10 @@
+.custom-file-input {
+  width: 250px;
+  height: 28px;
+  border: none; /* Remove the border */
+  outline: none; /* Remove outline when focused */
+}
+
+.custom-file-input::file-selector-button {
+  border: none;
+}
